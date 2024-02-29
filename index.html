@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Navbar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/index.html"><img src="logo2.svg" alt="logo" /></a>
+
+      <ul class="sidebar kp">
+        <li onclick=closeSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="mp">
+        <li class="hideonMobile"><a href="#">Home</a></li>
+        <li class="hideonMobile"><a href="#">Blog</a></li>
+        <li class="hideonMobile"><a href="#">Contact</a></li>
+        <li class="menu-btn" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" ><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="#7FFF00"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="top-container">
+      <h1>Welcome to our website</h1>
+    </div>
+    <div class="bottom-container">
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore
+        explicabo veritatis dignissimos accusantium nostrum voluptatum qui
+        labore, natus mollitia voluptatem. Ipsa ducimus eos saepe expedita ex
+        laboriosam optio omnis amet, qui veritatis unde aut tempora. Fuga et
+        sint autem amet, modi, veniam dolorum placeat blanditiis rerum doloribus
+        aliquid voluptas. Alias voluptatum id vel minima voluptates assumenda
+        accusantium consectetur culpa necessitatibus sint cum perspiciatis
+        laboriosam sequi praesentium, eos numquam! Eum, officia fugiat
+        reprehenderit eligendi itaque similique! Harum, quod vitae explicabo
+        sint ad illum expedita quisquam earum? Necessitatibus illo tempore
+        sapiente commodi quae, qui quasi odit fugiat impedit mollitia eveniet
+        maiores?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore
+        explicabo veritatis dignissimos accusantium nostrum voluptatum qui
+        labore, natus mollitia voluptatem. Ipsa ducimus eos saepe expedita ex
+        laboriosam optio omnis amet, qui veritatis unde aut tempora. Fuga et
+        sint autem amet, modi, veniam dolorum placeat blanditiis rerum doloribus
+        aliquid voluptas. Alias voluptatum id vel minima voluptates assumenda
+        accusantium consectetur culpa necessitatibus sint cum perspiciatis
+        laboriosam sequi praesentium, eos numquam! Eum, officia fugiat
+        reprehenderit eligendi itaque similique! Harum, quod vitae explicabo
+        sint ad illum expedita quisquam earum? Necessitatibus illo tempore
+        sapiente commodi quae, qui quasi odit fugiat impedit mollitia eveniet
+        maiores?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore
+        explicabo veritatis dignissimos accusantium nostrum voluptatum qui
+        labore, natus mollitia voluptatem. Ipsa ducimus eos saepe expedita ex
+        laboriosam optio omnis amet, qui veritatis unde aut tempora. Fuga et
+        sint autem amet, modi, veniam dolorum placeat blanditiis rerum doloribus
+        aliquid voluptas. Alias voluptatum id vel minima voluptates assumenda
+        accusantium consectetur culpa necessitatibus sint cum perspiciatis
+        laboriosam sequi praesentium, eos numquam! Eum, officia fugiat
+        reprehenderit eligendi itaque similique! Harum, quod vitae explicabo
+        sint ad illum expedita quisquam earum? Necessitatibus illo tempore
+        sapiente commodi quae, qui quasi odit fugiat impedit mollitia eveniet
+        maiores?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore
+        explicabo veritatis dignissimos accusantium nostrum voluptatum qui
+        labore, natus mollitia voluptatem. Ipsa ducimus eos saepe expedita ex
+        laboriosam optio omnis amet, qui veritatis unde aut tempora. Fuga et
+        sint autem amet, modi, veniam dolorum placeat blanditiis rerum doloribus
+        aliquid voluptas. Alias voluptatum id vel minima voluptates assumenda
+        accusantium consectetur culpa necessitatibus sint cum perspiciatis
+        laboriosam sequi praesentium, eos numquam! Eum, officia fugiat
+        reprehenderit eligendi itaque similique! Harum, quod vitae explicabo
+        sint ad illum expedita quisquam earum? Necessitatibus illo tempore
+        sapiente commodi quae, qui quasi odit fugiat impedit mollitia eveniet
+        maiores?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore
+        explicabo veritatis dignissimos accusantium nostrum voluptatum qui
+        labore, natus mollitia voluptatem. Ipsa ducimus eos saepe expedita ex
+        laboriosam optio omnis amet, qui veritatis unde aut tempora. Fuga et
+        sint autem amet, modi, veniam dolorum placeat blanditiis rerum doloribus
+        aliquid voluptas. Alias voluptatum id vel minima voluptates assumenda
+        accusantium consectetur culpa necessitatibus sint cum perspiciatis
+        laboriosam sequi praesentium, eos numquam! Eum, officia fugiat
+        reprehenderit eligendi itaque similique! Harum, quod vitae explicabo
+        sint ad illum expedita quisquam earum? Necessitatibus illo tempore
+        sapiente commodi quae, qui quasi odit fugiat impedit mollitia eveniet
+        maiores?
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
